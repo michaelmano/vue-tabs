@@ -1,0 +1,27 @@
+{
+  "name": "@mmano/vue-tabs",
+  "version": "1.0.0",
+  "description": "Simple tabs for Vue.js",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/michaelmano/vue-tabs.git"
+  },
+  "author": {
+    "name": "Michael Mano",
+    "email": "michael.mano26@gmail.com",
+    "url": "https://michaelmano.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michaelmano/vue-tabs/issues"
+  },
+  "homepage": "https://github.com/michaelmano/vue-tabs#readme",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-google": "^0.9.1"
+  }
+}
