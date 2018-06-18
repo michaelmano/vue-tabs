@@ -1,7 +1,7 @@
 <template>
     <div class="Tabs">
         <ul role="tablist" class="Tabs__list">
-            <li v-for="(index, tab) in tabs" :key="index" v-show="tab.isVisible" class="Tabs__list-item" role="presentation">
+            <li v-for="(tab, index) in tabs" :key="index" v-show="tab.isVisible" class="Tabs__list-item" role="presentation">
                 <a v-html="tab.header" :aria-controls="tab.hash" :aria-selected="tab.isActive" @click="selectTab(tab.hash, $event)" :href="tab.hash" :class="['Tabs__list-link', tab.isActive ? 'is-active' : '']" role="tab"></a>
             </li>
         </ul>
@@ -51,6 +51,10 @@ $v-tab-colors: (
   bravo: #4db6ac
 ) !default;
 
+.Tabs * {
+    box-sizing: border-box;
+}
+
 .Tabs__list {
   margin: 0;
   padding: 0;
@@ -59,7 +63,7 @@ $v-tab-colors: (
   display: flex;
   flex-direction: row;
   align-items: space-between;
-  background-color: map-get($v-tab-colors, hotel);
+  background-color: map-get($v-tab-colors, bravo);
 }
 
 .Tabs__list-item {
