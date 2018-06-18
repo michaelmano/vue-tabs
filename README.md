@@ -35,29 +35,7 @@ new Vue({
 
 ## Options
 
-You can override `<vue-tabs>` to something else with the below options.
-
-```javascript
-Vue.use(Tabs, {
-  componentName: {
-    parent: 'some-elements',
-    child: 'some-element-child',
-  }
-});
-```
-
-The above will change the components to:
-
-```html
-<some-elements>
-  <some-element-child name="Tab 1">
-    <p>Content for tab 1</p>
-  </some-element-child>
-  <some-element-child name="Tab 2">
-    <p>Content for tab 2</p>
-  </some-element-child>
-</some-elements>
-```
+TODO: add options back in
 
 ## TODO
 
