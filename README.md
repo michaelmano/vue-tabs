@@ -10,11 +10,11 @@ Vue Tabs is a tab system written for Vue.js
 
 ## Installing
 
-`npm install @ajutoare/vue-tabs`
+`npm install @mmano/vue-tabs`
 
 ```javascript
 import Vue from 'vue';
-import Tabs from '@ajutoare/vue-tabs';
+import Tabs from '@mmano/vue-tabs';
 Vue.use(Tabs);
 
 new Vue({
